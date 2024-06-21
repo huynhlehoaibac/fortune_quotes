@@ -4,7 +4,7 @@ function fortune {
     while IFS="=" read -r key value 
     do
         quotearray[$key]="$value"
-    done < <(jq -r 'to_entries|map("\(.key)=\(.value)")|.[]' $(antidote path huynhlehoaibac/fortune_quotes)/fortune/fortune/fortune.json)
+    done < <(jq -r 'to_entries|map("\(.key)=\(.value)")|.[]' $(antidote path huynhlehoaibac/fortune_quotes)/fortune/fortune.json)
 
     # We get a random number between 0 and the length of the array and we get the quote from the array.
     quotetoprint="${quotearray[$((RANDOM % ${#quotearray[@]}))]}"
