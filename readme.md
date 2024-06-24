@@ -20,7 +20,7 @@
 -   The fortunes are in English. If you want to translate them, you can do it in the fortune.json file.
 -   The fortunes file contains +5000 thousands quotes.
 
--   For more fun, you can combine the fortune command with the cowsay command. You need to install the _`cowsay`_ program before. You can do it using the "scoop" program. you can find it here: [Scoop for Windows](https://scoop.sh/).
+-   For more fun, you can combine the fortune command with the cowsay command. You need to install the _`neo-cowsay`_ program before. You can do it using the "scoop" program. you can find it here: [Scoop for Windows](https://scoop.sh/).
     Once installed, just type _`scoop install cowsay`_ and press enter. Then, you can type _`fortune | cowsay`_ and press enter.
 
 -   If you want to get a fortune quote when opening Gitbash, you can uncomment the `fortune` command to the end of the .bashrc file by removing the # character. Ditto for the automation of the cowsay command.
