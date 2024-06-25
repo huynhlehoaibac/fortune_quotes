@@ -24,4 +24,4 @@ function fortune {
 # fortune
 
 # Uncomment the following line if you already have "cowsay" installed and want to combine it with the fortune quote
-fortune | cowthink --aurora
+fortune | cowsay --aurora
